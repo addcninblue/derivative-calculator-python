@@ -23,9 +23,9 @@ Checklist
 Sample Calculation
 ------------------
 
-1+sin(2x+1)
+`1+sin(2x+1)`
 
-RPN: 1 2 x * 1 + sin +
+RPN: `1 2 x * 1 + sin +`
 
 1. Put `1 2 x` into stack.
 2. See `*`, so unload `2 x *`
@@ -36,4 +36,4 @@ RPN: 1 2 x * 1 + sin +
 7. Sees `sin`, so evaluates all evaluated. Adds `2 x * 1 + cos`, the derivative, to output. Output is now `2 1 * 0 x + 0 + 2 x * 1 + cos *`.
 8. Sees final `+`, and adds on final `1` in input stack. Final answer is `0 2 1 * 0 x + 0 + 2 x * 1 + cos * +`.
 
-0+(2*1+0*x)*cos(2*x+1)
+Final: `0+(2*1+0*x)*cos(2*x+1)`
