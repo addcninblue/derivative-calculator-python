@@ -1,8 +1,8 @@
 Derivative Calculator
----------------------
+=====================
 
 Methodology
-===========
+-----------
 
 1. Converts user input to [PN](https://en.wikipedia.org/wiki/Polish_notation)
 2. Parses user input by + and - and performs differentiation, marking as necessary parts for chain rule.
@@ -11,7 +11,7 @@ Methodology
 This is purely hypothetical at this point.
 
 Checklist
-=========
+---------
 
 | Functionality                      | Status |
 | ---                                | ---    |
